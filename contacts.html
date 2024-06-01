@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Contact Page</title>
+        <link rel="stylesheet" href="contacts.css">
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="footer.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="images/logo.png" alt="Logo">
+            </div>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Service</a></li>
+                    <li><a href="signup.html">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="Contact-form-section">
+                <h1>Contact Us</h1>
+                <form action="https://formspree.io/f/mjvqqnqp" method="post">
+                <form id="contactForm">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="Your Name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" class="field" id="email" name="Your Email" required>
+
+                    <label for="phone no">Phone no:</label>
+                    <input type="text" class="field" id="number" name="Your Phone Number" required>
+
+                    <label for="message">Message</label>
+                    <textarea class="field area" cols="70" id="msg" name="Message" required></textarea>
+
+                    <button type="submit" class="submit" id="sent" onclick="message()">Submit</button>
+                </form>
+            </form>
+        </section>
+    </main>
+     <footer>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100091685712768" class="icon icon-facebook"></a>
+            <a href="https://twitter.com/PrinceEmma75521?t=Nb3pCdcix572zhzvcN5tTg&s=09" class="icon icon-twitter"></a>
+            <a href="https://www.instagram.com/mwatsuma.emmanuel?igsh=N2I2bXFyeDkwdW5P" class="icon icon-instagram"></a>
+            <a href="https://www.tiktok.com/@princeemmanuel247?_t=8kQbxI9qDeo&_r=1" class="icon icon-tiktok"></a>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Urban Renewal Ltd. All rights reserved</p>
+            </div>
+        </footer>
+    </body>
+</html>
+             

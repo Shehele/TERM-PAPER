@@ -2,13 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    text-align: center;
 }
 
 header {
     background-color: #333;
-    color: #fff;
+    color: #dfd9d9;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,10 +29,10 @@ nav ul li {
     margin-left: 20px;
 }
 
-nav ul li a {
+.nav a {
     color: #fff;
     text-decoration: none;
-    font-size: 16px;
+    font-weight: bold;
 }
 
 nav ul li a:hover {
@@ -43,18 +41,23 @@ nav ul li a:hover {
 
 main {
     padding: 20px;
-    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px rgba(0, 0, 0, 0.1) ;
+
+}
+.about-content {
     max-width: 800px;
-    margin: 20px auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
-.about h1 {
+.about-content h1 {
     font-size: 16px;
     margin-bottom: 20px;
 }
 
-.about p {
+.about-content p {
     font-size: 16px;
     line-height: 1.6;
     margin-bottom: 20px;

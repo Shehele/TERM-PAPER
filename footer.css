@@ -1,0 +1,105 @@
+/* Pricing */
+footer {
+    background-color: #0073e6;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* services */
+footer {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+ /* contacts */
+ footer {
+    background-color: #0073e6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+ }
+
+ .social-icons{
+    margin-bottom: 10px;
+ }
+
+ .social-icons .icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+ }
+
+ .icon-facebook {
+    background-image: url('facebook-icon.png');
+ }
+
+ .icon-twitter {
+    background-image: url('twitter-icon.png');
+ }
+
+ .icon-instagram {
+    background-image: url('instagram-icon.png');
+ }
+
+ .icon-tiktok {
+    background-image: url('tiktok-icon.png');
+ }
+
+ /* About */
+ footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+ }
+
+ /* Index */
+ footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+ }
+
+ .footer-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ .footer-box div {
+    margin: 10px;
+ }
+
+ .footer-box h2 {
+    margin-bottom: 10px;
+ }
+
+  .footer-box a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+
+  .footer-box a:hover {
+    text-decoration: underline;
+  }
+
+  .copyright {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  
