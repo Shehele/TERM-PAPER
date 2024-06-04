@@ -56,50 +56,91 @@ footer {
 
  /* About */
  footer {
-    background-color: #333;
+    background-color: #0073e6;
     color: white;
-    padding: 20px;
+    padding: 20px 0;
     text-align: center;
     justify-content: center;
  }
 
  /* Index */
- footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
- }
-
- .footer-box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
- }
-
- .footer-box div {
-    margin: 10px;
- }
-
- .footer-box h2 {
-    margin-bottom: 10px;
- }
-
-  .footer-box a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 5px;
+  footer {
+   background-color: #333;
+   color: #fff;
+   padding: 20px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   position: sticky;
+   bottom: 0;
   }
 
-  .footer-box a:hover {
-    text-decoration: underline;
+  .footer-section {
+   text-align: center;
   }
 
-  .copyright {
-    width: 100%;
-    text-align: center;
-    margin-top: 20px;
+  .footer-section h2 {
+   margin-bottom: 10px;
+   font-size: 2em;
+   font-size: 1.2em;
   }
 
-  
+  .footer-item {
+   display: flex;
+   align-items: center;
+   margin: 5px 0;
+  }
+
+  .icon {
+   width: 30px;
+   height: 30px;
+   margin-right: 10px;
+  }
+
+  .footer-item a {
+   display: flex;
+   align-items: center;
+   margin: 5px 0;
+  }
+
+  .footer-item a:hover,
+  .footer-item a:focus {
+   color: #ffd700; /* change color on hover/touch */
+  }
+
+  .footer-item a:hover .icon,
+  .footer-item a:focus .icon {
+   filter: brightness(1.2); /* brighten icon on hover/touch */
+  }
+
+  .footer-section p, .footer-section a {
+   margin-bottom: 5px;
+   font-size: 1em;
+   color: #fff;
+   text-decoration: none;
+  }
+
+  .footer-section a img {
+   width: 30px;
+   height: 30px;
+   margin: 0 5px;
+  }
+
+  .footer-section a:hover {
+   opacity: 0.8;
+  }
+
+  .footer-copyright {
+   text-align: center;
+   width: 100%;
+   margin-top: 10px;
+  }
+
+  .footer-item p {
+   margin: 0;
+   color: white;
+  }
+
+  .footer-item {
+   margin: 0 20px;
+  }

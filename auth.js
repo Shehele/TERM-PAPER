@@ -12,6 +12,26 @@ document.addEventListener('DOMContentLoaded',function() {
         if (isLogin) {
             formTitle.textContent = 'Sign Up';
             submitButton.textContent = 'Sign Up';
+        } else {
+            formTitle.textContent = 'Login';
+            submitButton.textContent = 'Login';
         }
+        isLogin = !isLogin;
     }
-})
+});
+
+authForm.addEventListener('submiit',function(event){
+    event.preventDefault();
+    // Handle form submission logic const email = document.getElementById('email').value;
+    const password = document.getElementById('password').ariaValue;
+    if (isLogin){
+        // Handle login logic console.log('Login with',email,password);
+    } else {
+        // Handle sign up logic console.logic('Sign up with',email,password);
+    }
+});
+
+loginLink.addEventListener('click',function(event){
+    event.preventDefault();
+    if (!isLogin) toggleForm();
+});

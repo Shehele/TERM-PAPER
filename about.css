@@ -6,12 +6,11 @@ body {
 
 header {
     background-color: #333;
-    color: #dfd9d9;
+    color: #fff;
+    padding: 20px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10 20px;
-    
 }
 
 .logo img {
@@ -26,38 +25,39 @@ nav ul {
 }
 
 nav ul li {
+    display: inline;
     margin-left: 20px;
 }
 
-.nav a {
+nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-weight: bold;
 }
 
 nav ul li a:hover {
+    color: #ccc;
     text-decoration: underline;
 }
 
 main {
-    padding: 20px;
+    padding: 20;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 0 1px rgba(0, 0, 0, 0.1) ;
 
 }
-.about-content {
-    max-width: 800px;
+.about-section {
+    min-width: 800px;
     text-align: center;
 }
 
-.about-content h1 {
+.about-section h1 {
     font-size: 16px;
     margin-bottom: 20px;
 }
 
-.about-content p {
+.about-section p {
     font-size: 16px;
     line-height: 1.6;
     margin-bottom: 20px;
